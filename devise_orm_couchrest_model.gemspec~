@@ -17,11 +17,11 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  spec.add_runtime_dependency 'couchrest_model', '~> 2.0.4'
-  spec.add_runtime_dependency 'orm_adapter_couchrest_model', '~> 0.0.1', :git => 'git://github.com/islam-askar/orm_adapter_couchrest_model.git'
-  spec.add_runtime_dependency 'devise', '~> 3.2'
-  spec.add_development_dependency "bundler", "~> 1.3"
-  spec.add_development_dependency "rake"
+  s.add_runtime_dependency 'couchrest_model', '~> 2.0.4'
+  s.add_runtime_dependency 'orm_adapter_couchrest_model', '~> 0.0.1', :git => 'git://github.com/islam-askar/orm_adapter_couchrest_model.git'
+  s.add_runtime_dependency 'devise', '~> 3.2'
+  s.add_development_dependency "bundler", "~> 1.3"
+  s.add_development_dependency "rake"
 
   
 end
