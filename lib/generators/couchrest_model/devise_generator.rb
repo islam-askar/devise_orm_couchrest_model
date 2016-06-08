@@ -9,16 +9,13 @@ module CouchrestModel
 
       def generate_model
         invoke "couchrest_model:model", [name] unless model_exists? && behavior == :invoke
-			puts 'generate_model'
       end
 
       def inject_property_types
-			puts 'inject_property_types'
         inject_into_file model_path, migration_data, after: "include CouchRest::Model::Base\n" if model_exists?
       end
 
       def inject_devise_content
-			puts 'inject_property_types'
         inject_into_file model_path, model_contents, after: "include CouchRest::Model::Base\n" if model_exists?
       end
 
