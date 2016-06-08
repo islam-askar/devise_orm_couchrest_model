@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = DeviseOrmCouchrestModel::VERSION
   s.authors     = ["Islam Askar"]
   s.email       = ["islam.askar@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of DeviseOrmCouchrestModel."
-  s.description = "TODO: Description of DeviseOrmCouchrestModel."
+  s.homepage    = "https://github.com/islam-askar/devise_orm_couchrest_model"
+  s.summary     = "Integrate Device with couchrest_mode."
+  s.description = "Integrate Device with couchrest_mode.."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
